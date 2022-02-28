@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="#03A9F4"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="210dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/picsart_11_10_10_12_38" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="311dp"
+        android:layout_height="89dp"
+
+        android:background="#24E1FA"
+        android:gravity="center"
+
+        android:text="HOME"
+        android:textColor="#EDEFF1"
+        android:textSize="34sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnlist"
+            android:layout_width="129dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/v" />
+
+        <ImageButton
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:background="#03A9F4"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="#6BE3F3"
+            android:text="ADD APPOINTMENT"
+            android:textColor="#304BE1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:background="#6BE3F3"
+            android:text="APPOINTMENT LIST"
+            android:textColor="#304BE1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="168dp"
+        android:layout_gravity="center"
+        android:background="#03A9F4"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="91dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/re" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="200dp"
+            app:srcCompat="@drawable/picsart_11_10_01_04_04" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
